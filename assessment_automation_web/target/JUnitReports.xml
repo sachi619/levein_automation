@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="155.391" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Assessment Test Execution" name="TC1 : User registration" time="155.124">
+<system-out><![CDATA[
+Given the user should see the header "Log in" on the page...................passed
+When user click on the signup button........................................passed
+And the user should see the sub header as "Just a few more steps and you're finished!".passed
+And user enters "Sam" as "First Name".......................................passed
+And user enters "Anderson" as "Last Name"...................................passed
+And user enters "sam@gmail.com" as "Email"..................................passed
+And user enters "String@123456" as "Password"...............................passed
+And user selects 1994 as year "June" as month 2 as date for "Date of birth".passed
+And user enters "07736985699" as "Mobile No"................................passed
+And user adds "SW1A 1AA" as "Postcode"......................................passed
+And user validates the postcodes............................................passed
+And user clicks enter it manually option....................................passed
+And user adds "Rose Cottage" as "Building Name".............................passed
+And user adds "10" as "Building Number".....................................passed
+And user adds "High Street" as "Address 1"..................................passed
+And user adds "Sutton" as "Address 2".......................................passed
+And user adds "London" as "Town or City"....................................passed
+And user adds "Greater London" as "County"..................................passed
+Then user click on "Next" button............................................passed
+Then user click on "Next" button............................................passed
+And the user should see the header as "Every point matters" in points page..passed
+And user click on "Next" button.............................................passed
+And user select plan as "Lite"..............................................passed
+Then user click on "Next" button............................................passed
+And user click on "Show me how" button......................................passed
+Then user click on "Start now" button.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
